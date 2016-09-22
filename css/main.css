@@ -88,6 +88,8 @@ body,html{
     margin: 0 0 20px 0;
     font-weight: 400;
     line-height: 58px;
+    transform: translate3d(0,80px,0);
+    opacity: 0;
 }
 
 .headerH2{
@@ -96,6 +98,8 @@ body,html{
     font-weight: 300;
     color: rgba(255, 255, 255, 0.8);
     margin: 0 0 60px 0;
+    transform: translate3d(0,80px,0);
+    opacity: 0;
 }
 
 .text-fixed{
@@ -113,6 +117,7 @@ position: relative;
 
 .buttons a{
     text-decoration: none;
+    color: #FDD4D4;
 }
 
 .btn1{
@@ -125,6 +130,8 @@ position: relative;
     background: #FA5555;
     border-radius: 5%;
     margin-bottom: 10px;
+    transform: translate3d(0,80px,0);
+    opacity: 0;
     
 }
 
@@ -139,19 +146,23 @@ position: relative;
     border: 2px solid #00ADB5;
     background: #00ADB5;
     border-radius: 5%;
+    transform: translate3d(0,80px,0);
+    opacity: 0;
     
 }
 
 
 
 #services{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 80px;
 }
 
 
 .h3{
     position: relative;
+    transform: translate3d(0,50px,0);
+    opacity: 0;
 }
 
 
@@ -188,6 +199,8 @@ position: relative;
     position: relative;
     display: block;
     padding-bottom: 30px;
+    transform: translate3d(0,50px,0);
+    opacity: 0;
 }
 
 
@@ -265,11 +278,13 @@ position: relative;
     background-position: center center;
     position: relative;
     height: 696px;
+    transform: translate3d();
+    opacity: 0;
 }
 
 @media only screen and (max-width: 800px) {
     .core-features .grid1{
-    display: none;
+    display: none; 
         
 }
 }
@@ -341,12 +356,24 @@ position: relative;
     padding-bottom: 30px;
     padding-top: 40px;
 }
+.testimonial2{
+    opacity: 0;
+    transform:  translateY(60px);
+   
+}
+
+.testimonial1{
+    opacity: 0;
+    transform: translateY(60px);
+}
+
 .doe-img {
     margin-top: 20px;
     width: 90px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
 #testimony h6 {
     color: #7f7f7f;
     font-size: 12px;
@@ -355,9 +382,11 @@ position: relative;
     font-weight: 700;
     display: block;
 }
+
 #testimony h6 span {
     color: rgba(0, 173, 181, 0.6);
 }
+
 #testimony blockquote {
     border: none;
     margin: 30px auto;
@@ -369,9 +398,11 @@ position: relative;
     color: #7f7f7f;
     font-size: 20px;
 }
+
 .buttons {
     margin-top: 10px;
 }
+
 .box {
     width: 10px;
     height: 10px;
@@ -419,6 +450,7 @@ position: relative;
 /*    font-size: 24px;*/
     color: #fff;
 }
+
 .pricing-p {
     font-size: 18px;
     color: #8f989f;
@@ -426,7 +458,14 @@ position: relative;
     font-weight: 400;
     padding-bottom: 30px;
     margin-bottom: 40px;
+    opacity: 0;
 }
+.pricing-end-p{
+
+opacity: 0;
+
+}
+
 .price-box {
     border: 2px solid lightgray;
     text-align: center;
@@ -434,6 +473,23 @@ position: relative;
     border-radius: 5px;
     margin-bottom: 40px;
 }
+.price-box1{
+    opacity: 0;
+}
+.price-box2{
+    opacity: 0;
+}
+.price-box3{
+    opacity: 0;
+}
+.price-box4{
+    opacity: 0;
+}
+.pricing-h{
+
+    opacity: 0;
+}
+
 .pricing-choose {
     margin: 0;
     padding: 0;
@@ -531,6 +587,17 @@ hr {
     border: 0;
 }
 /* Footer*/
+
+.footer-box-1{
+    opacity: 0;
+}
+.footer-box-2{
+    opacity: 0;
+}
+.footer-box-3{
+    opacity: 0;
+}
+
 #footer .title-aboutUs{
 	font-size: 22px;
     color: #fff;
@@ -982,4 +1049,21 @@ padding: 0;
 #submit-btn {
     color: rgba(255, 255, 255, 0.9) !important;
     background: #FA5555 !important;
+}
+
+/*---Some Animations---------*/
+
+.boxFirstChildAnim1{
+    transform: translate3d(0,50px,0);
+    opacity: 0;
+}
+
+.boxFirstChildAnim2{
+    transform: translate3d(0,50px,0);
+    opacity: 0;
+}
+
+.h2Anim{
+    transform: translate3d(0,30px,0);
+    opacity: 0;
 }
